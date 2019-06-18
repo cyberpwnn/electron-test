@@ -1,0 +1,43 @@
+body
+{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main 
+{
+    flex: 1 0 auto;
+}
+
+.titlebar
+{
+    padding: 0.7em;
+    background: rgb(12, 85, 85);
+}
+
+.hul
+{
+    color: rgb(214, 214, 214);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.hli
+{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.draggable
+{
+    -webkit-app-region: drag
+}
+
+.notdraggable
+{
+    -webkit-app-region: no-drag
+}
